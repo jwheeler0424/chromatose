@@ -1,0 +1,38 @@
+{
+  "name": "chromatose",
+  "version": "0.0.1",
+  "description": "A color library utility to convert between profiles and create different palates from multiple schemes.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "dev": "nodemon",
+    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json)\"",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx",
+    "test": "jest --passWithNoTests --updateSnapshot --coverage",
+    "test:watch": "jest --passWithNoTests --updateSnapshot --coverage --watch"
+  },
+  "keywords": ["color", "chroma", "chromatose", "color theory", "color profiles", "color schemes", "color palates", "color conversion", "color utilities", "color library", "color manipulation", "color mixing", "color blending", "color harmonies", "color contrast", "color perception", "color vision", "color blindness", "color deficiency", "color space", "color model", "color gamut", "color temperature", "color psychology", "color symbolism", "color meaning", "color association", "color wheel", "color harmony", "color balance", "color saturation", "color value", "color hue", "color lightness", "color brightness", "color intensity"],
+  "author": "Jonathan Wheeler",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@total-typescript/ts-reset": "latest",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/module-alias": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "latest",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "nodemon": "latest",
+    "prettier": "latest",
+    "ts-jest": "^29.1.2",
+    "ts-node": "latest",
+    "tsc-alias": "latest",
+    "tsconfig-paths": "latest",
+    "typescript": "latest"
+  }
+}
